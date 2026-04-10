@@ -2,7 +2,12 @@
 name = "cuda-weather"
 version = "0.1.0"
 edition = "2021"
-description = "Environmental sensing — temperature, humidity, light, noise, and terrain analysis for agent world awareness"
+description = "Environmental awareness — thermal, light, noise, terrain, hazards"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/Lucineer/cuda-weather"
+readme = "README.md"
+keywords = ["ai", "fleet", "agent", "rust"]
+categories = ["science"]
 
 [dependencies]
 serde = { version = "1", features = ["derive"] }
