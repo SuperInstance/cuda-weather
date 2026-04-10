@@ -1,0 +1,8 @@
+[package]
+name = "cuda-weather"
+version = "0.1.0"
+edition = "2021"
+description = "Environmental sensing — temperature, humidity, light, noise, and terrain analysis for agent world awareness"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
